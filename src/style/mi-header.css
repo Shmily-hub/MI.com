@@ -170,14 +170,14 @@
   position: relative;
   float: left;
 }
-.header .nav-index .header-nav .header-nav_list .link-item .header-category .header-category_list .category-children .category-children_list li .link {
+.header .nav-index .header-nav .header-nav_list .link-item .header-category .header-category_list .category-children .category-children_list li .link-list {
   display: block;
   padding: 18px 20px;
   line-height: 40px;
   color: #333;
   text-decoration: none;
 }
-.header .nav-index .header-nav .header-nav_list .link-item .header-category .header-category_list .category-children .category-children_list li .link .thumb {
+.header .nav-index .header-nav .header-nav_list .link-item .header-category .header-category_list .category-children .category-children_list li .link-list .thumb {
   width: 40px;
   height: 40px;
   float: left;

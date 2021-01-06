@@ -1,0 +1,34 @@
+@charset "utf-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1226px;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+.carousel-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 174px;
+}
+.container .home-sub {
+  margin-top: 14px;
+}
+.container .home-sub .span4 {
+  width: 234px;
+  float: left;
+  margin-left: 14px;
+}
+.container .home-sub .span4 .home-list {
+  margin: 0;
+  padding: 3px;
+  list-style: none;
+  font-size: 12px;
+  text-align: center;
+  background-color: #5f5750;
+}

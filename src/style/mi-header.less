@@ -5,15 +5,13 @@
     box-sizing: border-box;
 }
 // 全局变量
-// container
-@container-width:1226px;     //container默认宽1170，更改到1226
 // 行高变量
 @line-height:40px;
  // 字体颜色
 @color:#b0b0b0;
 
 .container{
-    width: @container-width;
+    width: 1226px;
     padding: 0;
     margin-right: auto;
     margin-left: auto;
@@ -191,7 +189,7 @@
                                         height: 76px;
                                         position: relative;
                                         float: left;
-                                        .link{
+                                        .link-list{
                                             display: block;
                                             padding: 18px 20px;
                                             line-height: @line-height   ;
@@ -248,7 +246,6 @@
                 }
             }
         }
-
         .header-search{
             // input边框变量
             @border: 1px solid #e0e0e0;
