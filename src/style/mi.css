@@ -206,6 +206,7 @@
   width: 795px;
 }
 .header .nav-index .header-nav .header-nav_list .link-item .header-category .header-category_list .children-10 {
+  display: none;
   width: 795px;
 }
 .header .nav-index .header-nav .header-nav_list .nav-item {
