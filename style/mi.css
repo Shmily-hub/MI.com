@@ -28,23 +28,23 @@
 .header .nav {
   font-size: 12px;
 }
-.header .nav .nav-left {
-  position: relative;
-  float: left;
-  line-height: 40px;
-}
-.header .nav .nav-left .container {
+.header .nav .container {
   width: 1226px;
   padding: 0;
   margin-right: auto;
   margin-left: auto;
 }
-.header .nav .nav-left .container a {
+.header .nav .container .nav-left {
+  position: relative;
+  float: left;
+  line-height: 40px;
+}
+.header .nav .container .nav-left a {
   color: #b0b0b0;
   display: inline-block;
   text-decoration: none;
 }
-.header .nav .nav-left .container .sep {
+.header .nav .container .nav-left .sep {
   color: #424242;
   margin: 0 0.3em;
 }
