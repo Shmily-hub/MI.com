@@ -1,0 +1,68 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+// 全局变量
+
+
+// 头部
+.header{
+    // 头部索引变量
+    @width:100%;
+    @height:120px;
+
+    // container
+    @width:1226px;          //container默认宽1170，更改到1226
+    .container{
+        width: @width;
+        padding: 0;
+        margin-right: auto;
+        margin-left: auto;
+        .header-img {
+            width: @width;
+            height:@height;
+            position: relative;
+            .link-block{
+                position: absolute;
+                top:0;
+                width:@width;
+                height:@height;
+                background-repeat: no-repeat;
+                background-position: 50%;
+                background-size:auto 120px;
+                text-decoration: none;
+            }
+    }
+    }
+    .nav{
+        // container
+        @width:1226px;          //container默认宽1170，更改到1226
+
+        @color: #b0b0b0;
+        font-size: 12px;
+        
+            .nav-left{
+                position: relative;
+                float: left;
+                line-height: 40px;
+                
+                .container{
+                    width: @width;
+                    padding: 0;
+                    margin-right: auto;
+                    margin-left: auto;
+                a{
+                    color: @color;
+                    display: inline-block;
+                    text-decoration:none;
+                }
+                .sep{
+                    color: #424242;
+                    margin: 0 .3em;
+                }
+            }
+        }
+    }
+}
