@@ -1,0 +1,64 @@
+@charset "utf-8";
+.home-commodity {
+  padding-bottom: 12px;
+  background-color: #f5f5f5;
+}
+.home-commodity .container .xiaomi-buy {
+  margin-bottom: 22px;
+}
+.home-commodity .container .xiaomi-buy .buy-h2 {
+  height: 58px;
+}
+.home-commodity .container .xiaomi-buy .buy-h2 .title-h2 {
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #333;
+}
+.home-commodity .container .xiaomi-buy .buy-content_left {
+  width: 234px;
+  height: 300px;
+  padding-top: 39px;
+  float: left;
+  margin-left: 14px;
+  border-top-color: red;
+  border-top-width: 1px;
+  border-top-style: solid;
+  background-color: #f1eded;
+  text-align: center;
+}
+.home-commodity .container .xiaomi-buy .buy-content_left .round {
+  font-size: 21px;
+  color: red;
+  padding-top: 15px;
+}
+.home-commodity .container .xiaomi-buy .buy-content_left img {
+  margin: 25px auto;
+}
+.home-commodity .container .xiaomi-buy .buy-content_left .desc {
+  font-size: 15px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.54);
+}
+.home-commodity .container .xiaomi-buy .buy-content_left .buy-content_time {
+  width: 168px;
+  margin: 28px auto 0;
+}
+.home-commodity .container .xiaomi-buy .buy-content_left .buy-content_time span {
+  width: 46px;
+  height: 46px;
+  background: #605751;
+  color: #fff;
+  font-size: 24px;
+  line-height: 46px;
+  float: left;
+}
+.home-commodity .container .xiaomi-buy .buy-content_left .buy-content_time i {
+  width: 15px;
+  height: 46px;
+  line-height: 46px;
+  color: #605751;
+  font-size: 28px;
+  font-style: normal;
+  float: left;
+}

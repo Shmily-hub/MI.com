@@ -10,14 +10,8 @@
   margin-right: auto;
   margin-left: auto;
 }
-.slideshow .carousel-control {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 174px;
-}
-.slideshow .left {
-  background-image: none;
+.slideshow .glyphicon-chevron-left {
+  margin-left: 157px;
 }
 .home-recommend {
   margin-bottom: 24px;
