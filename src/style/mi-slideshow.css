@@ -10,25 +10,94 @@
   margin-right: auto;
   margin-left: auto;
 }
-.carousel-control {
+.slideshow .carousel-control {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 174px;
 }
-.container .home-sub {
+.slideshow .left {
+  background-image: none;
+}
+.home-recommend {
+  margin-bottom: 24px;
+}
+.home-recommend .container .home-recommend-sub {
   margin-top: 14px;
 }
-.container .home-sub .span4 {
+.home-recommend .container .home-recommend-sub .span4 {
   width: 234px;
   float: left;
   margin-left: 14px;
 }
-.container .home-sub .span4 .home-list {
-  margin: 0;
+.home-recommend .container .home-recommend-sub .span4 .home-list_left {
   padding: 3px;
   list-style: none;
   font-size: 12px;
   text-align: center;
   background-color: #5f5750;
+  overflow: hidden;
+}
+.home-recommend .container .home-recommend-sub .span4 .home-list_left li {
+  width: 70px;
+  height: 82px;
+  padding: 0 3px;
+  float: left;
+  margin: 3px;
+  position: relative;
+}
+.home-recommend .container .home-recommend-sub .span4 .home-list_left li .home-span_top {
+  position: absolute;
+  top: 0;
+  left: 6px;
+  width: 64px;
+  height: 1px;
+  background-color: #665e57;
+}
+.home-recommend .container .home-recommend-sub .span4 .home-list_left li a {
+  color: #fff;
+  opacity: 0.7;
+  display: block;
+  padding-top: 18px;
+  text-decoration: none;
+}
+.home-recommend .container .home-recommend-sub .span4 .home-list_left li a img {
+  width: 24px;
+  height: 24px;
+  margin: 0 auto 4px;
+  display: block;
+}
+.home-recommend .container .home-recommend-sub .span4 .home-list_left li .home-span_left {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 1px;
+  height: 75px;
+  background-color: #665e57;
+}
+.home-recommend .container .home-recommend-sub .span6 {
+  width: 978px;
+  float: left;
+  margin-left: 14px;
+}
+.home-recommend .container .home-recommend-sub .span6 .home-list_right {
+  list-style: none;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+.home-recommend .container .home-recommend-sub .span6 .home-list_right li {
+  width: 316px;
+  float: left;
+  margin-left: 15px;
+}
+.home-recommend .container .home-recommend-sub .span6 .home-list_right li a {
+  display: block;
+}
+.home-recommend .container .home-recommend-sub .span6 .home-list_right li a img {
+  width: 316px;
+  height: 181px;
+  display: block;
+}
+.home-recommend .container .home-recommend-sub .span6 .home-list_right .home-list_no {
+  margin-left: 0;
 }
