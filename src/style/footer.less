@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+.container{
+    width: 1226px;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer{
+    .footer-top{
+        .container{
+            .footer-service{
+                overflow: hidden;
+                padding:27px 0;
+                border-bottom: 1px solid #e0e0e0;
+                .footer-list{
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    li{
+                        width: 19.8%;
+                        height: 25px;
+                        font-size: 16px;
+                        line-height: 25px;
+                        text-align: center;
+                        border-left: 1px solid #e0e0e0;
+                        float: left;
+                        a{
+                            color: #616161;
+                        }
+                        &:first-child{
+                            border-left: 0;
+                        }
+                    }
+                }
+            }
+            .footer-links{
+                overflow: hidden;
+                padding: 40px 0;
+                .footer-dl{
+                    float: left;
+                    width: 160px;
+                    margin: 0;
+                    dt{
+                        margin: -1px 0 26px;
+                        font-size: 14px;
+                        line-height: 1.25px;
+                        color: #424242;
+                    }
+                    dd{
+                        margin: 10px 0 0;
+                        a{
+                            text-decoration: none;
+                            color: #757575;
+                        }
+                    }
+                }
+                .footer-content{
+                    width: 251px;
+                    float: right;
+                    border-left: 1px solid #e0e0e0;
+                    text-align: center;
+                    color: #616161;
+                    .phone{
+                        font-size: 22px;
+                        line-height: 1px;
+                        color: #ff6700;
+                        padding: 8px;
+                    }
+                    p{
+                        margin: 0 0 5px 0;
+                        font-size: 12px;
+                    }
+                    .footer-content_a{
+                        width: 118px;
+                        height: 28px;
+                        font-size: 12px;
+                        line-height: 28px;
+                        display: inline-block;
+                        padding: 0;
+                        margin: 0;
+                        border:1px solid #b0b0b0;
+                        text-align: center;
+                        border-color: #ff6700;
+                        background-color: #fff;
+                        color: #ff6700;
+                    }
+                    .footer-follow{
+                        font-size: 12px;
+                        margin-top: 10px;
+                        position: relative;
+                        .wb{
+                            width: 24px;
+                            height: 24px;
+                            display: inline-block;
+                            vertical-align: middle;
+                            margin-left: 6px;
+                            margin-top: -3px;
+                            &:first-child{
+                                background: url(../img/weibo.png) 50% 0 no-repeat;
+                                background-size: cover;
+                            }
+                        }
+                        .wd{
+                            width: 24px;
+                            height: 24px;
+                            display: inline-block;
+                            vertical-align: middle;
+                            margin-left: 6px;
+                            margin-top: -3px;
+                            background: url(../img/weixin.png) 50% 0 no-repeat;
+                                background-size: cover;
+                        }
+                        .footer-follow_img{
+                            width: 126px;
+                            height: 126px;
+                            position: absolute;
+                            top: 20px;
+                            left: 100px;
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
