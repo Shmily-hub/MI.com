@@ -6,7 +6,7 @@
 }
 // 全局变量
 // 行高变量
-@line-height:40px;
+@line-height:38px;
  // 字体颜色
 @color:#b0b0b0;
 
@@ -59,7 +59,39 @@
                     color: @color;
                     display: inline-block;
                     text-decoration:none;
+                    position: relative;
+                    &:hover{
+                        color:#fff;
+                    }
+                    .appcode{
+                        display: none;
+                        position: absolute;
+                        top: 40px;
+                        left: 50%;
+                        width: 124px;
+                        height: 140px;
+                        background: #fff;
+                        margin-left: -55px;
+                        box-shadow: 0 1px 5px #aaa;
+                        text-align: center;
+                        font-size: 14px;
+                        color: #333;
+                        line-height: 1px;
+                        z-index: 3;
+                        img{
+                            display: block;
+                            margin: 18px auto 12px;
+                            width: 90px;
+                            height: 90px;
+                            
+                        }
+                    }
+                    
                 }
+                .left-a:hover .appcode{
+                    display: block;
+                }
+
                 .sep{
                     color: #424242;
                     margin: 0 .3em;
@@ -71,17 +103,47 @@
                 float: right;
                 margin-left: 15px;
                 line-height: @line-height;
+                position: relative;
+                
                 .shopping-a{
                     color: @color;
                     background-color: #424242;
                     display: block;
                     text-align:center;
+                    text-decoration: none;
                     .shopping-a_span{
                         text-align: center;
                         color: @color;
                     }
+                    &:hover{
+                        background:#fff;
+                    }
+                }
+                
+                .shopping-menu{
+                    display: none;
+                    position: absolute;
+                    right: 0;
+                    top: 40px;
+                    width: 316px;
+                    color: #424242;
+                    background: #fff;
+                    // overflow: hidden;
+                    z-index: 31;
+                    .shopping-menu_loading{
+                        padding: 20px 0 0;
+                        .shopping-menu_center{
+                            margin: 0 20px 20px;
+                            text-align: center;
+                            padding: 20px 0;
+                        }
+                    }
                 }
             }
+            .shopping:hover>.shopping-menu{
+                display: block;
+            }
+
             .right{
                 line-height: @line-height;
                 position: relative;
@@ -91,6 +153,10 @@
                     color: @color;
                     padding: 0 5px;
                     text-align: center;
+                    &:hover{
+                        color: #fff;
+                        text-decoration: none;
+                    }
                 }
                 .sep{
                     color: #424242;
@@ -115,9 +181,12 @@
                 height:55px;
                 display: block;
                 overflow: hidden;
-                background-color: #ff6700;
-
+                background: url(../img/mi-logo.png) no-repeat 50% 50% #ff6700;
             }
+
+        }
+        .header-logo:hover>.logo{
+            background: url(../img/mi-home.png) no-repeat 50% 50% #ff6700;
         }
         .header-nav{
             float: left;
@@ -158,78 +227,90 @@
                             background:rgba(105,101,101,.6) ;
                             padding: 20px 0;
                             list-style: none;
-
-                            .header-category_a{
-                                text-decoration: none;
-                                height: 42px;
-                                line-height: 42px;
-                                color: #fff;
-                                position: relative;
-                                display: block;
-                                padding-left: 30px;
-                            }
-                            .category-children{
-                                position: absolute;
-                                left: 234px;
-                                top:0;
-                                width: @max-width;
-                                height: 458px;
-                                border:@border;
-                                background-color: #fff;
-                                box-shadow: 0 8px 16px rgba(0,0,0,.18);
-                                .category-children_list{
-                                    width: 240px;
+                            .header-category_item{
+                                
+                                .header-category_a{
+                                    text-decoration: none;
+                                    height: 42px;
+                                    line-height: 42px;
+                                    color: #fff;
+                                    position: relative;
+                                    display: block;
+                                    padding-left: 30px;
+                                    .icon-iconfontjiantou5{
+                                        float: right;
+                                        margin-right: 20px;
+                                    }
+                                }
+                                .category-children{
+                                    position: absolute;
+                                    left: 234px;
+                                    top:0;
+                                    width: @max-width;
                                     height: 458px;
-                                    margin: 0;
-                                    padding:2px 0;
-                                    list-style: none;
-                                    float: left;
-                                    li{
-                                        width: 265px;
-                                        height: 76px;
-                                        position: relative;
+                                    border:@border;
+                                    background-color: #fff;
+                                    box-shadow: 0 8px 16px rgba(0,0,0,.18);
+                                    .category-children_list{
+                                        width: 240px;
+                                        height: 458px;
+                                        margin: 0;
+                                        padding:2px 0;
+                                        list-style: none;
                                         float: left;
-                                        .link-list{
-                                            display: block;
-                                            padding: 18px 20px;
-                                            line-height: @line-height   ;
-                                            color:#333;
-                                            text-decoration: none;
-                                            .thumb{
-                                                width: 40px;
-                                                height: 40px;
-                                                float: left;
-                                                margin-right: 12px;
-                                                vertical-align: middle;
+                                        li{
+                                            width: 265px;
+                                            height: 76px;
+                                            position: relative;
+                                            float: left;
+                                            .link-list{
+                                                display: block;
+                                                padding: 18px 20px;
+                                                line-height: @line-height   ;
+                                                color:#333;
+                                                text-decoration: none;
+                                                .thumb{
+                                                    width: 40px;
+                                                    height: 40px;
+                                                    float: left;
+                                                    margin-right: 12px;
+                                                    vertical-align: middle;
+                                                }
                                             }
                                         }
                                     }
                                 }
+                                .category-children{
+                                    display: none;
+                                }
+                                .children-3{
+                                    width: @min-width;
+                                }
+                                .children-5{
+                                    width: @min-width;
+                                }
+                                .children-6{
+                                    width: @min-width;
+                                }
+                                .children-7{
+                                    width: 530px;
+                                }
+                                .children-8{
+                                    width:@min-width;
+                                }
+                                .children-9{
+                                    width:@min-width;
+                                }
+                                .children-10{
+                                    display: none;
+                                    width:@min-width;
+                                }
+                                &:hover{
+                                    background: #ff6700;
+                                }
                             }
-                            .category-children{
-                                display: none;
-                            }
-                            .children-3{
-                                width: @min-width;
-                            }
-                            .children-5{
-                                width: @min-width;
-                            }
-                            .children-6{
-                                width: @min-width;
-                            }
-                            .children-7{
-                                width: 530px;
-                            }
-                            .children-8{
-                                width:@min-width;
-                            }
-                            .children-9{
-                                width:@min-width;
-                            }
-                            .children-10{
-                                display: none;
-                                width:@min-width;
+                            .header-category_item:hover>.category-children{
+                                display: block;
                             }
                         }
                     }
@@ -258,6 +339,14 @@
                 height: 50px;
                 position: relative;
                 .no-style-msq{
+                    .icon{
+                        position: absolute;
+                        top: 5px;
+                        right: 15px;
+                        font-size: 25px;
+                        z-index: 3;
+                        color: red;
+                    }
                     color: #333;
                     .search-text{
                         width: 223px;

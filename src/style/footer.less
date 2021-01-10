@@ -125,4 +125,140 @@
             }
         }
     }
+    .footer-bottom{
+        padding:30px 0;
+        font-size: 12px;
+        background-color: #fafafa;
+        .container{
+            .footer-logo{
+                width: 57px;
+                height: 57px;
+                margin-right: 10px;
+                background: url(../img/logomi.png) no-repeat 50% 50%;
+            }
+            .footer-text{
+                margin-top: -60px;
+                color: #b0b0b0;
+                padding-left: 67px;
+                .text-p{
+                    margin: 0;
+                    line-height: 18px;
+                    a{
+                        color: #757575;
+                    }
+                    .sep{
+                        margin: 0;
+                        font-family: sans-serif;
+                    }
+                }
+                p{
+                    margin: 0;
+                    line-height: 18px;
+                    a{
+                        color: #b0b0b0;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .footer-links{
+                height: 28px;
+                margin: 4px 0 15px;
+                padding-left: 67px;
+                a{
+                    display: inline-block;
+                    img{
+                        width: auto;
+                        height: 28px;
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+        .slogan{
+            width: 100%;
+            height: 19px;
+            margin: 30px auto 0;
+            background: url(../img/zi.png) no-repeat center 0;
+        }
+    }
+}
+
+// 定位
+.home-tool{
+    position: fixed;
+    right: 0;
+    left: auto;
+    margin-left: 0;
+    bottom: 40px;
+    .home-tool_a{
+        width: 25px;
+        height: 40px;
+        position: relative;
+        display: block;
+        margin-top: -1px;
+        background-color: #fff;
+        border:1px solid #f5f5f5;
+        text-align: center;
+        .icon{
+            width: 20px;
+            height:20px;
+            padding-top: 10px;
+            position: relative;
+            margin:0 auto 8px;
+            .static{
+                width:20px;
+                height: 20px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+            .hover{
+                width:20px;
+                height: 20px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+        }
+        .home-tool_text{
+            position: absolute;
+            left: 0;
+            top: 0;
+            padding: 14px;
+            background-color: #fff;
+            border: 1px solid #f5f5f5;
+            visibility: hidden;
+            img{
+                width: 100px;
+                height: 100px;
+                margin: 6px auto;
+                display: block;
+            }
+            .desc{
+                width: 82px;
+                margin: 14px auto 0;
+                color: #757575;
+                text-align: center;
+                display: block;
+                visibility: hidden;
+            }
+        }
+        .home-tool_span{
+            display: none;
+            position: absolute;
+            left: -75px;
+            top: 0;
+            height: 28px;
+            line-height: 28px;
+            padding: 0 8px;
+            background-color: #fff;
+            border: 1px solid #f5f5f5;
+            text-align: center;
+            white-space: nowrap;
+            color: #757575;
+        }
+        &:last-child{
+            margin-top: 14px;
+        }
+    }
 }

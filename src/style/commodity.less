@@ -86,6 +86,35 @@
                     line-height: 58px;
                     color: @color;
                 }
+                .buy-controls{
+                    position: absolute;
+                    right: 0;
+                    top: 24px;
+                    .buy-controls_prev{
+                        width: 30px;
+                        height: 24px;
+                        padding: 3px 5px;
+                        margin-left: -1px;
+                        border: 1px solid #e0e0e0;
+                        font-size:16px;
+                        line-height: 16px;
+                        display: inline-block;
+                        color: #b0b0b0;
+                        text-align: center;
+                    }
+                    .buy-controls_next{
+                        width: 30px;
+                        height: 24px;
+                        padding: 3px 5px;
+                        margin-left: -1px;
+                        border: 1px solid #e0e0e0;
+                        font-size:16px;
+                        line-height: 16px;
+                        display: inline-block;
+                        color: #b0b0b0;
+                        text-align: center;
+                    }
+                }
             }
             .buy-content_left{
                 width:234px;
@@ -277,6 +306,9 @@
                         font-size: 16px;
                         // line-height: 58px;
                         color:#424242;
+                        .icon-rightarrow{
+                            font-size: 18px;
+                        }
                     }
                     .more-list{
                         padding: 16px 0 0;
@@ -363,6 +395,7 @@
                                     
                                     a{
                                         font-size: 18px;
+                                        position: relative;
                                         span{
                                             display: block;
                                             font-size: 12px;
@@ -376,6 +409,13 @@
                                     a{
                                         color: #333;
                                         text-indent:2em;
+                                        .icon-youjiantou{
+                                            position: absolute;
+                                            right: 30px;
+                                            top:-15px;
+                                            font-size: 50px;
+                                            color: #ff5700;
+                                        }
                                     }
                                 }
                             }

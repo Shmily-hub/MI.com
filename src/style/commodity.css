@@ -80,6 +80,35 @@
   line-height: 58px;
   color: #333;
 }
+.home-commodity .container .xiaomi-buy .buy-h2 .buy-controls {
+  position: absolute;
+  right: 0;
+  top: 24px;
+}
+.home-commodity .container .xiaomi-buy .buy-h2 .buy-controls .buy-controls_prev {
+  width: 30px;
+  height: 24px;
+  padding: 3px 5px;
+  margin-left: -1px;
+  border: 1px solid #e0e0e0;
+  font-size: 16px;
+  line-height: 16px;
+  display: inline-block;
+  color: #b0b0b0;
+  text-align: center;
+}
+.home-commodity .container .xiaomi-buy .buy-h2 .buy-controls .buy-controls_next {
+  width: 30px;
+  height: 24px;
+  padding: 3px 5px;
+  margin-left: -1px;
+  border: 1px solid #e0e0e0;
+  font-size: 16px;
+  line-height: 16px;
+  display: inline-block;
+  color: #b0b0b0;
+  text-align: center;
+}
 .home-commodity .container .xiaomi-buy .buy-content_left {
   width: 234px;
   height: 300px;
@@ -265,6 +294,9 @@
   font-size: 16px;
   color: #424242;
 }
+.home-commodity .container .phone-district .buy-h2 .more .more-a .icon-rightarrow {
+  font-size: 18px;
+}
 .home-commodity .container .phone-district .buy-h2 .more .more-list {
   padding: 16px 0 0;
   list-style: none;
@@ -344,6 +376,7 @@
 }
 .home-commodity .container .phone-district .buy-h2 .phone-commodity .phone-span6 .phone-list .phone-list_li .phone-list_li_s a {
   font-size: 18px;
+  position: relative;
 }
 .home-commodity .container .phone-district .buy-h2 .phone-commodity .phone-span6 .phone-list .phone-list_li .phone-list_li_s a span {
   display: block;
@@ -357,6 +390,13 @@
 .home-commodity .container .phone-district .buy-h2 .phone-commodity .phone-span6 .phone-list .phone-list_li:last-child a {
   color: #333;
   text-indent: 2em;
+}
+.home-commodity .container .phone-district .buy-h2 .phone-commodity .phone-span6 .phone-list .phone-list_li:last-child a .icon-youjiantou {
+  position: absolute;
+  right: 30px;
+  top: -15px;
+  font-size: 50px;
+  color: #ff5700;
 }
 .home-commodity .container .video-district .buy-h2 {
   height: 58px;
