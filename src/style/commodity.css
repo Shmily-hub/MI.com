@@ -304,7 +304,7 @@
 }
 .home-commodity .container .phone-district .buy-h2 .more .more-list .tab-active {
   color: #ff6700;
-  border-bottom: #ff6700;
+  border-bottom: #ff6700 2px solid;
 }
 .home-commodity .container .phone-district .buy-h2 .more .more-list li {
   display: inline-block;

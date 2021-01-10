@@ -25,7 +25,12 @@
   float: left;
 }
 .footer .footer-top .container .footer-service .footer-list li a {
+  text-decoration: none;
   color: #616161;
+}
+.footer .footer-top .container .footer-service .footer-list li a span {
+  font-size: 30px;
+  margin-right: 3px;
 }
 .footer .footer-top .container .footer-service .footer-list li:first-child {
   border-left: 0;

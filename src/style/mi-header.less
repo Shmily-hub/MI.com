@@ -316,6 +316,7 @@
                     }
                 }
                 .nav-item{
+                    position: relative;
                     float: left;
                     .link{
                         display: block;
@@ -324,6 +325,51 @@
                         color:#333;
                         text-decoration: none;
                     }
+                    .nav-item_list{
+                        display: none;
+                        position: absolute;
+                        left: -219px;
+                        list-style: none;
+                        font-size: 16px;
+                        background-color: #fff;
+                        z-index: 25;
+                        border-top: 1px solid #f5f5f5;
+                        .container{
+                            .cleafix{
+                                li{
+                                    width: 208px;
+                                    list-style: none;
+                                    float: left;
+                                    a{
+                                        text-decoration: none;
+                                        text-align: center;
+                                        // line-height: 5px;
+                                        .figure{
+                                            border-right: 2px solid #f5f5f5;
+                                            img{
+                                                width: 146px;
+                                                height: 160px;
+                                            }
+                                        }
+                                        .cleafix-title{
+                                            color: #333;
+                                            font-size: 12px;
+                                        }
+                                        .price{
+                                            color: #ff6700;
+                                            font-size: 12px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .nav-item:hover .text{
+                    color: #ff6700;
+                }
+                .nav-item:hover .nav-item_list{
+                    display: block;
                 }
             }
         }
