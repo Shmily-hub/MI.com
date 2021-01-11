@@ -102,7 +102,7 @@
   margin-top: -3px;
 }
 .footer .footer-top .container .footer-links .footer-content .footer-follow .wb:first-child {
-  background: url(../img/weibo.png) 50% 0 no-repeat;
+  background: url(../../img/weibo.png) 50% 0 no-repeat;
   background-size: cover;
 }
 .footer .footer-top .container .footer-links .footer-content .footer-follow .wd {
@@ -112,7 +112,7 @@
   vertical-align: middle;
   margin-left: 6px;
   margin-top: -3px;
-  background: url(../img/weixin.png) 50% 0 no-repeat;
+  background: url(../../img/weixin.png) 50% 0 no-repeat;
   background-size: cover;
 }
 .footer .footer-top .container .footer-links .footer-content .footer-follow .footer-follow_img {
@@ -132,7 +132,7 @@
   width: 57px;
   height: 57px;
   margin-right: 10px;
-  background: url(../img/logomi.png) no-repeat 50% 50%;
+  background: url(../../img/logomi.png) no-repeat 50% 50%;
 }
 .footer .footer-bottom .container .footer-text {
   margin-top: -60px;
@@ -175,7 +175,7 @@
   width: 100%;
   height: 19px;
   margin: 30px auto 0;
-  background: url(../img/zi.png) no-repeat center 0;
+  background: url(../../img/zi.png) no-repeat center 0;
 }
 .home-tool {
   position: fixed;

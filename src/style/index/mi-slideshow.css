@@ -13,6 +13,15 @@
 .slideshow .glyphicon-chevron-left {
   margin-left: 157px;
 }
+.slideshow .carousel-indicators {
+  width: 10%;
+  margin-left: 0;
+  right: 0;
+  left: auto;
+}
+.slideshow .carousel-indicators li {
+  border: 2px solid #b0b0b0;
+}
 .home-recommend {
   margin-bottom: 24px;
 }

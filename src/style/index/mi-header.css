@@ -27,7 +27,7 @@
   background-position: 50%;
   background-size: auto 120px;
   text-decoration: none;
-  background-image: url(../img/bb3c06a430689ba2357dd7d1fbfa6bab.jpg);
+  background-image: url(../../img/bb3c06a430689ba2357dd7d1fbfa6bab.jpg);
 }
 .header .nav {
   position: relative;
@@ -155,10 +155,10 @@
   height: 55px;
   display: block;
   overflow: hidden;
-  background: url(../img/mi-logo.png) no-repeat 50% 50% #ff6700;
+  background: url(../../img/mi-logo.png) no-repeat 50% 50% #ff6700;
 }
 .header .nav-index .header-logo:hover > .logo {
-  background: url(../img/mi-home.png) no-repeat 50% 50% #ff6700;
+  background: url(../../img/mi-home.png) no-repeat 50% 50% #ff6700;
 }
 .header .nav-index .header-nav {
   float: left;
@@ -303,7 +303,7 @@
   border-top: 1px solid #f5f5f5;
 }
 .header .nav-index .header-nav .header-nav_list .nav-item .nav-item_list .container .cleafix li {
-  width: 208px;
+  width: 204px;
   list-style: none;
   float: left;
 }
@@ -325,6 +325,24 @@
 .header .nav-index .header-nav .header-nav_list .nav-item .nav-item_list .container .cleafix li a .price {
   color: #ff6700;
   font-size: 12px;
+}
+.header .nav-index .header-nav .header-nav_list .nav-item .nav-2 {
+  left: -303px;
+}
+.header .nav-index .header-nav .header-nav_list .nav-item .nav-3 {
+  left: -406px;
+}
+.header .nav-index .header-nav .header-nav_list .nav-item .nav-4 {
+  left: -458px;
+}
+.header .nav-index .header-nav .header-nav_list .nav-item .nav-5 {
+  left: -526px;
+}
+.header .nav-index .header-nav .header-nav_list .nav-item .nav-6 {
+  left: -578px;
+}
+.header .nav-index .header-nav .header-nav_list .nav-item .nav-7 {
+  left: -646px;
 }
 .header .nav-index .header-nav .header-nav_list .nav-item:hover .text {
   color: #ff6700;

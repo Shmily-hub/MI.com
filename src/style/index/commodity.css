@@ -398,6 +398,9 @@
   font-size: 50px;
   color: #ff5700;
 }
+.home-commodity .container .phone-district .buy-h2 .phone-commodity .phone-span6 .phone-list .phone_last-child_li {
+  background-color: #fff !important;
+}
 .home-commodity .container .video-district .buy-h2 {
   height: 58px;
   position: relative;
