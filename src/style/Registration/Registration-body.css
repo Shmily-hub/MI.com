@@ -37,22 +37,121 @@
   line-height: 20px;
   margin: 0 auto;
 }
-.Registration .wrap .layout .mi-box .phone-step1 .region {
+.Registration .wrap .layout .mi-box .phone-step1 .region-h4 {
   padding-bottom: 5px;
   color: #333;
   font-weight: normal;
   font-size: 14px;
 }
 .Registration .wrap .layout .mi-box .phone-step1 .btn-1 {
-  width: 307px;
+  width: 290px;
   height: 45px;
   text-align: left;
   background: #fff;
-  border: 1px solid #f5f5f5;
+  border: 1px solid #b0b0b0;
   color: #333;
 }
-.Registration .wrap .layout .mi-box .phone-step1 .dropdown-toggle {
+.Registration .wrap .layout .mi-box .phone-step1 .btn-tog {
+  width: 43px;
   height: 45px;
+  color: #b0b0b0;
+  background: #fff;
+  border: 1px solid #b0b0b0;
+}
+.Registration .wrap .layout .mi-box .phone-step1 .caret-span {
+  border-top: 10px dashed;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+}
+.Registration .wrap .layout .mi-box .phone-step1 .tip_text {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.Registration .wrap .layout .mi-box .phone-step1 .tip_normal {
+  padding-bottom: 5px;
+  color: #333;
+  font-weight: normal;
+  font-size: 14px;
+}
+.Registration .wrap .layout .mi-box .phone-step1 .phone-verification .verification_box {
+  padding-bottom: 15px;
+}
+.Registration .wrap .layout .mi-box .phone-step1 .phone-verification .verification_box .btn-group .btn-2 {
+  width: 50px;
+  height: 41px;
   background-color: #fff;
-  border: 1px solid #f5f5f5;
+  color: #b0b0b0;
+  border: 1px solid #b0b0b0;
+}
+.Registration .wrap .layout .mi-box .phone-step1 .phone-verification .verification_box .btn-group .btn-tog2 {
+  height: 41px;
+  background: #fff;
+  border: 1px solid #b0b0b0;
+}
+.Registration .wrap .layout .mi-box .phone-step1 .phone-verification .verification_box .btn-group .caret_span {
+  color: #b0b0b0;
+}
+.Registration .wrap .layout .mi-box .phone-step1 .phone-verification .verification_box .verification_input {
+  width: 248px;
+  height: 40px;
+  display: inline-block;
+  margin-left: -6px;
+}
+.Registration .wrap .layout .mi-box .phone-step1 .fixed_bot .phone-submin {
+  width: 330px;
+  height: 42px;
+  margin: 0 auto;
+  line-height: 42px;
+  text-align: center;
+  font-size: 14px;
+  display: block;
+  margin-top: 15px;
+  border: 1px solid rgba(186, 186, 186, 0.3);
+  background-color: #ff6700;
+  color: #fff;
+}
+.Registration .wrap .layout .privacy-box {
+  text-align: center;
+  padding-top: 40px;
+}
+.Registration .wrap .layout .privacy-box .msg .checked {
+  font-size: 14px;
+  padding: 10px 0;
+  display: block;
+  font-weight: inherit;
+  color: #b0b0b0;
+}
+.Registration .wrap .layout .privacy-box .msg .checked .checked-link {
+  text-decoration: none;
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+}
+.footer {
+  height: 80px;
+  margin-top: -80px;
+  text-align: center;
+  color: #9d9d9d;
+}
+.footer .footer-list {
+  color: #333;
+  list-style: none;
+  overflow: hidden;
+  margin: 0 35%;
+}
+.footer .footer-list li {
+  float: left;
+  margin: 0 auto;
+}
+.footer .footer-list li .footer-list_li {
+  color: #757575;
+  display: inline-block;
+  padding: 0 10px;
+}
+.footer .footer-p {
+  padding: 10px;
+}
+.footer .footer-p a {
+  color: #333;
+  text-decoration: none;
 }
