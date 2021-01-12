@@ -464,3 +464,196 @@
 .header .mi-box .mi-content .right-content .right-content_p span {
   color: #ff4a00;
 }
+.header .mi-box .mi-content .right-content .companf-info {
+  color: #ff6700;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.header .mi-box .mi-content .right-content .price-info {
+  font-size: 22px;
+  line-height: 1;
+  color: #ff6700;
+  padding: 12px 0 10px;
+}
+.header .mi-box .mi-content .right-content .blank {
+  margin-top: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.header .mi-box .mi-content .right-content .appress-box {
+  margin: 20px 0;
+  padding: 30px 50px;
+  background-color: #fafafa;
+  border: 1px solid #e0e0e0;
+  overflow: hidden;
+}
+.header .mi-box .mi-content .right-content .appress-box .test {
+  font-size: 20px;
+  color: #999;
+  float: left;
+  margin-top: -4px;
+  margin-right: 10px;
+}
+.header .mi-box .mi-content .right-content .appress-box .appress-con {
+  float: left;
+}
+.header .mi-box .mi-content .right-content .appress-box .appress-con span {
+  margin-right: 14px;
+}
+.header .mi-box .mi-content .right-content .appress-box .appress-con span:last-child {
+  display: block;
+  color: #ff6700;
+  margin-top: 8px;
+  font-size: 14px;
+}
+.header .mi-box .mi-content .right-content .appress-box .appress-con .edit {
+  color: #ff6700;
+  margin: 0;
+  text-decoration: none;
+}
+.header .mi-box .mi-content .right-content .buy-option .buy-color_option {
+  margin-bottom: 30px;
+}
+.header .mi-box .mi-content .right-content .buy-option .buy-color_option .title_h4 {
+  font-size: 21px;
+}
+.header .mi-box .mi-content .right-content .buy-option .buy-color_option .buy_list {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.header .mi-box .mi-content .right-content .buy-option .buy-color_option .buy_list li {
+  margin-right: 8px;
+  margin-top: 10px;
+  line-height: 42px;
+  height: 42px;
+  border: 1px solid #e0e0e0;
+  list-style: none;
+  float: left;
+  width: 292px;
+  font-size: 16px;
+  text-align: center;
+}
+.header .mi-box .mi-content .right-content .buy-option .buy-color_option .buy_list li a {
+  text-decoration: none;
+  color: #ff6700;
+}
+.header .mi-box .mi-content .right-content .buy-option .buy-edition_option {
+  margin-bottom: 30px;
+}
+.header .mi-box .mi-content .right-content .buy-option .buy-edition_option .title_h4 {
+  font-size: 21px;
+}
+.header .mi-box .mi-content .right-content .buy-option .buy-edition_option .buy_list {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.header .mi-box .mi-content .right-content .buy-option .buy-edition_option .buy_list li {
+  margin-right: 8px;
+  margin-top: 10px;
+  line-height: 42px;
+  height: 42px;
+  border: 1px solid #e0e0e0;
+  list-style: none;
+  float: left;
+  width: 292px;
+  font-size: 16px;
+  text-align: center;
+}
+.header .mi-box .mi-content .right-content .buy-option .buy-edition_option .buy_list li a {
+  text-decoration: none;
+  color: #ff6700;
+}
+.header .mi-box .mi-content .right-content .service-box .service-item_box {
+  margin-bottom: 30px;
+}
+.header .mi-box .mi-content .right-content .service-box .service-item_box .title-h4 {
+  display: inline-block;
+  font-size: 21px;
+  margin-bottom: 15px;
+  line-height: 1;
+}
+.header .mi-box .mi-content .right-content .service-box .service-item_box a {
+  text-decoration: none;
+  color: #ff6700;
+  font-size: 14px;
+  float: right;
+  line-height: 32px;
+}
+.header .mi-box .mi-content .right-content .service-box .service-item_box ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+}
+.header .mi-box .mi-content .right-content .service-box .service-item_box ul li {
+  border: 1px solid #e0e0e0;
+  margin-top: -1px;
+  background-color: #fff;
+  padding: 30px 0;
+  overflow: hidden;
+}
+.header .mi-box .mi-content .right-content .service-box .service-item_box ul li .radio {
+  float: left;
+  margin-left: 37px;
+  margin-top: 18px;
+}
+.header .mi-box .mi-content .right-content .service-box .service-item_box ul li img {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  margin-left: 10px;
+  float: left;
+}
+.header .mi-box .mi-content .right-content .service-box .service-item_box ul li .box h4 {
+  font-size: 21px;
+  margin: 7px 0 10px 0;
+}
+.header .mi-box .mi-content .right-content .service-box .service-item_box ul li .box h4 span {
+  font-style: normal;
+  font-size: 14px;
+  background-color: #ff6700;
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 20px;
+  color: #fff;
+  margin-left: 2px;
+}
+.header .mi-box .mi-content .right-content .service-box .service-item_box ul li .box .desc {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #b0b0b0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 5px;
+}
+.header .mi-box .mi-content .right-content .service-box .service-item_box ul li .box .checkbox {
+  float: left;
+  margin: 10px 0 0 129px;
+}
+.header .mi-box .mi-content .right-content .service-box .service-item_box ul li .box p a {
+  float: none;
+}
+.header .mi-box .mi-content .right-content .service-box .service-item_box ul li .box .price {
+  float: right;
+  margin-top: -35px;
+  margin-right: 35px;
+}
+.header .mi-box .mi-content .right-content .price-list {
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.header .mi-box .mi-content .right-content .price-list div {
+  margin: 0;
+  padding: 0;
+}
+.header .mi-box .mi-content .right-content .price-list div p {
+  float: left;
+  display: inline-block;
+}
+.header .mi-box .mi-content .right-content .price-list div span {
+  float: right;
+}
