@@ -1,0 +1,195 @@
+@charset "utf-8";
+.login-page{
+    .header-logo{
+        .img-logo{
+            display: block;
+            width: 200px;
+            height: 98px;
+            margin-left: 67px;
+            background: url(../../img/xiaomilogo.png) no-repeat;
+        }
+    }
+    .login-content{
+        height: 597px;
+        .content-bg{
+            display: block;
+            position: relative;
+            width: 100%;
+            height: 588px;
+            background-image: url(../../img/login-bg.jpg);
+            background-repeat: no-repeat;
+            background-position: top center;  
+        }
+        .login-box{
+            padding: 0 31px;
+            width: 410px;
+            background-color: #fff;
+            position: absolute;
+            top: 150px;
+            right: 80px;
+            z-index: 1;
+            .top-login{
+                padding: 27px 0 24px;
+                text-align: center;
+                font-size: 24px;
+                color: #666;
+                .navtab-link{
+                    color: #ff6700;
+                    text-decoration: none;
+                    
+                }
+                a{
+                    text-decoration: none;
+                    color: #999;
+                    &:hover{
+                        color: #ff6700;
+                    }
+                }
+                .link{
+                    font-size: 24px;
+                    margin: 0 42px;
+                    color: #e0e0e0;
+                }
+            }
+            .login-verification{
+                .login-phone{
+                    display: block;
+                    padding: 13px 14px;
+                    width: 347px;
+                    height: 45px;
+                    font-size: 16px;
+                    border:1px solid #e0e0e0;
+                    margin-bottom: 15px;
+                }
+                .login-btn{
+                    display: block;
+                    width: 347px;
+                    height: 45px;
+                    font-size: 16px;
+                    background-color: #ff6700;
+                    margin-bottom: 15px;
+                    text-align: center;
+                    color: #fff;
+                    border: none;
+                }
+            }
+            .phone-link{
+                display: block;
+                margin-bottom: 30px;
+                color: #ff6700;
+                text-align: center;
+            }
+            .phone-sms{
+                text-align: center;
+                span{
+                    color: #999;
+                    margin: 0 5px;
+                }
+                a{
+                    color: #999;
+                    text-decoration: none;
+                }
+            }
+            .other{
+                padding-top: 156px;
+                text-align: center;
+                .login-type{
+                    width: 30px;
+                    height: 30px;
+                    display: inline-block;
+                    border-radius: 50%;
+                    margin: 0 10px;
+                    background-image: url(../../img/icons_type.png);
+                    background-repeat: no-repeat;
+                    background-size: 152px;
+                }
+                .login-1{
+                    background-color: blue;
+                    background-position: -25px 1px;
+                }
+                .login-2{
+                    background-color: red;
+                    background-position: -51px 1px;
+                }
+                .login-3{
+                    background-color: lightskyblue;
+                    background-position: -80px 1px;
+                }
+                .login-4{
+                    background-color: green;
+                    background-position: -120px 1px;
+                }
+            }
+        }
+        .no-box{
+            display: none;
+            position: absolute;
+            top: 223px;
+            right: 80px;
+            width: 410px;
+            height: 462px;
+            background-color: #fff;
+            z-index: 2;
+            padding-top: 70px;
+            p{
+                padding: 56px 0 40px;
+                text-align: center;
+                color: #333;
+                font-size: 15px;
+            }
+            .box-img{
+                width: 190px;
+                height: 190px;
+                margin: 0 auto;
+                
+                .no-img{
+                    width: 190px;
+                    height: 190px;
+                }
+            }
+            .no-bottom{
+                padding-top: 14px;
+                font-size: 14px;
+                text-align: center;
+                p{
+                    padding: 0;
+                    color:#999;
+                    span{
+                        padding: 0 5px;
+                        color: #ff6700;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer{
+        height: 80px;
+        text-align: center;
+        margin-top:80px ;
+        color: #9d9d9d;
+        .footer-list{
+            
+            color: #333;
+            list-style: none;
+            overflow: hidden;
+            margin: 0 35%;
+            li{
+            float: left;
+                margin: 0 auto;
+                .footer-list_li{
+                    color: #757575;
+                    display: inline-block;
+                    padding: 0 10px;
+                }
+            }
+        }
+        .footer-p{
+            padding: 10px;
+            a{
+                color: #333;
+                text-decoration: none;
+            }
+        }
+    }
+}

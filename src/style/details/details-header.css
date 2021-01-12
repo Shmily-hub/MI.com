@@ -642,7 +642,7 @@
   margin-right: 35px;
 }
 .header .mi-box .mi-content .right-content .price-list {
-  background-color: #fff;
+  background-color: #f9f9f9;
   padding: 30px;
   margin-bottom: 30px;
 }
@@ -651,9 +651,79 @@
   padding: 0;
 }
 .header .mi-box .mi-content .right-content .price-list div p {
-  float: left;
   display: inline-block;
 }
 .header .mi-box .mi-content .right-content .price-list div span {
   float: right;
+}
+.header .mi-box .mi-content .right-content .price-list .price-total {
+  color: #ff6700;
+  font-size: 24px;
+  padding-top: 20px;
+}
+.header .mi-box .mi-content .right-content .btn-box {
+  margin: 10px 0 20px 0;
+}
+.header .mi-box .mi-content .right-content .btn-box .shopping-trolley {
+  display: inline-block;
+  margin-right: 10px;
+}
+.header .mi-box .mi-content .right-content .btn-box .shopping-trolley .btn-shopping {
+  text-align: center;
+  width: 298px;
+  height: 52px;
+  line-height: 52px;
+  font-size: 16px;
+  background-color: #ff6700;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+}
+.header .mi-box .mi-content .right-content .btn-box .collect {
+  display: inline-block;
+}
+.header .mi-box .mi-content .right-content .btn-box .collect .collect-btn {
+  display: block;
+  width: 140px;
+  height: 52px;
+  line-height: 52px;
+  padding: 0;
+  margin: 0;
+  background-color: #b0b0b0;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+.header .mi-box .mi-content .right-content .info span {
+  display: inline-block;
+}
+.header .mi-box .mi-content .right-content .info span .support {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 15px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  color: #b0b0b0;
+  font-size: 16px;
+}
+.header .mi-box .mi-content .right-content .info span .support .duigou {
+  font-size: 20px;
+}
+.header .mi-box .product-page {
+  padding-bottom: 50px;
+  background: #f5f5f5;
+}
+.header .mi-box .product-page h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 1em 20px;
+}
+.header .mi-box .product-page .img-box {
+  padding-left: 20px;
+}
+.header .mi-box .product-page .img-box img {
+  height: 210px;
 }
