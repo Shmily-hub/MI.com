@@ -348,7 +348,12 @@
   color: #ff6500;
   border: 1px solid #ff6500;
 }
+#app .shopping-center .container .cart-recommend .recommend-db .list .recommend-item .nobox:hover > .shpping {
+  color: #fff;
+  background-color: #ff6700;
+}
 #app .shopping-center .container .cart-recommend .recommend-db .list .recommend-item:hover > .nobox {
   display: block;
   transition: all 0.7s;
+  color: #fff;
 }
