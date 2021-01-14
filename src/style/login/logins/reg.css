@@ -1,0 +1,115 @@
+@charset 'utf-8';
+.father {
+  padding: 150px 0;
+  background-color: #f5f5f5;
+}
+.area {
+  width: 900px;
+  background-color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+  color: #757575;
+  padding-bottom: 30px;
+}
+.area h3 {
+  margin: 40px 0;
+  font-size: 24px;
+  font-weight: 400;
+}
+.area h5 {
+  font-weight: 400;
+}
+.area form {
+  width: 330px;
+  text-align: left;
+  margin: 0 auto;
+}
+.area form input {
+  width: 330px;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  outline-color: #ff6700;
+  box-shadow: 0;
+}
+.area form .sub {
+  color: #fff;
+  background-color: #ff6700;
+  margin: 5px 0 40px;
+}
+.area form label {
+  position: relative;
+}
+.area form label .tits_bl {
+  width: 50px;
+  height: 40px;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  border-left: 1px solid #e0e0e0;
+}
+.area form label .tits_bl span {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #e0e0e0;
+  border-radius: 50%;
+  color: #e0e0e0;
+  text-align: center;
+  line-height: 18px;
+}
+.area form label .tits_br {
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  border-right: 1px solid #e0e0e0;
+  z-index: 10;
+}
+.area form label .tits_br p {
+  line-height: 40px;
+  text-align: center;
+}
+.area form label .tits_br p i {
+  margin-left: 3px;
+}
+.area form > p {
+  margin: 5px 0 15px;
+}
+.area form > h3,
+.area form > h5 {
+  margin: 3px 0;
+}
+.area .h32 {
+  text-indent: 12px;
+}
+.area .h30 {
+  text-indent: 72px;
+}
+.clear::after {
+  content: "";
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+strong {
+  color: #000;
+}
+.footer {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 12px;
+  color: #757575;
+}
+.footer a {
+  color: #111;
+  text-decoration: none;
+  margin: 0 15px;
+}
+.footer p {
+  margin-top: 20px;
+}

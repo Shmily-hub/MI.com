@@ -1,7 +1,7 @@
 <?php
-    include('../datainterface/library/conn.php');
+    include('./library/conn.php');
 
-    $sql = "select * from detatop";
+    $sql = "select * from mi";
 
     $res = $mysqli->query($sql);
 

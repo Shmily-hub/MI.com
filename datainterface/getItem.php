@@ -1,9 +1,9 @@
 <?php
-    include('../../../datainterface/library/conn.php');
+    include('./library/conn.php');
 
     $id = $_REQUEST['id'];
 
-    $sql = "select * from detatop where id=$id";
+    $sql = "select * from mi where id=$id";
 
     $res = $mysqli->query($sql);
 
